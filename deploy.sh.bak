@@ -1,0 +1,7 @@
+hexo generate
+cp -R public/* .deploy/techidea.github.io
+cd .deploy/techidea.github.io
+git add .
+git commit -m   “金色梦乡”
+git push origin master
+
